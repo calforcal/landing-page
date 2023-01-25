@@ -4,60 +4,69 @@
     <head>
         <meta charset="UCF-8">
         <title>Landing Page</title>
+        <link rel="stylesheet" href="styles.css">
     </head>
 
     <body>
-        <header class="header-logo">Header Logo</header>
+        <div class="header">
+            <header class="header-logo">Bicycle Micycle</header>
 
             <div class="nav-header">
-                <ul>
-                    <li><a>Header Link One</a></li>
-                    <li><a>Header Link Two</a></li>
-                    <li><a>Header Link Three</a></li>
+                <ul class="nav-links">
+                    <li class="head-link"><a href="https://www.instagram.com/bicyclemicycle/">Instagram</a></li>
+                    <li class="head-link"><a href="https://www.strava.com/athletes/49883450">Strava</a></li>
+                    <li class="head-link"><a>Under Construction</a></li>
                 </ul>
             </div>
+        </div>
         <div class="welcome-content">
-            <header>This Website is awesome.</header>
-            <p>This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast</p>
-            <button>Sign Up</button>
+            <div class="welcome-column">
+                <header class="welcome-header">Welcome to the Land of Bikes</header>
+                <p class="header-subtext">This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast</p>
+                <button class="header-button">Sign Up</button>
+            </div>
+            <img id="my-bike" src="/Users/michaelcallahan/Downloads/IMG_0160.jpeg" alt="my bike with a mountain view">
+            
         </div>    
         <div class="quick-view">
-            <header>Some random information</header>
+            <header class="quick-view-header">Some random information.</header>
             <div class="content">
                 <div class="image-1">
-                    <img>
-                    <p>This is some subtext under an illustration or image</p>
+                    <img class="mountain-peak" src="/Users/michaelcallahan/Downloads/mountain-peak.jpg" alt="mountain peak">
+                    <p class="content-subtext">This is some subtext under an illustration or image</p>
                 </div>
                 <div class="image-2">
-                    <img>
-                    <p>This is some subtext under an illustration or image</p>
+                    <img class="moon" src="/Users/michaelcallahan/Downloads/moon.jpg" alt="mountain with a moon">
+                    <p class="content-subtext">This is some subtext under an illustration or image</p>
                 </div>
                 <div class="image-3">
-                    <img>
-                    <p>This is some subtext under an illustration or image</p>
+                    <img class="black-white" src="/Users/michaelcallahan/Downloads/black-white.jpg" alt="black and white mountain">
+                    <p class="content-subtext">This is some subtext under an illustration or image</p>
                 </div>
                 <div class="image-4">
-                    <img>
-                    <p>This is some subtext under an illustration or image</p>
+                    <img class="alpine-glow" src="/Users/michaelcallahan/Downloads/alpine-glow.jpg" alt="mountain peaks in alpine glow">
+                    <p class="content-subtext">This is some subtext under an illustration or image</p>
                 </div>
             </div>
         </div>
 
-        <div class="quote">
-            <p>This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice.</p>
-            <p>-Thor, God of Thunder</p>
+        <div class="quote-section">
+            <p class="quote">This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice.</p>
+            <p class="author">-Thor, God of Thunder</p>
         </div>
 
         <div class="sign-up-bar">
-            <div class="sign-up-text">
-                <p>Call to action! It's time!</p>
-                <p>Sign up for our product by clicking the button right over there!</p>
+            <div class="sign-up-box">
+                <div class="sign-up-text">
+                    <p id="action">Call to action! It's time!</p>
+                    <p>Sign up for my newsletter by clicking the button right over there!</p>
+                </div>
+                <button class="sign-up-button">Sign Up</button>
             </div>
-            <button>Sign Up</button>
-        </div>
+        </div>    
 
         <div class="footer">
-            <p>Copyright © The Odin Project 2023</p>
+            <p>Copyright © Bichael Callahan</p>
         </div>
     </body>
 </html>
